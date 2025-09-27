@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     stack
+relocations:
+  - { offset: 0x19, size: 0x8, addend: 0x0, symName: __Z10Stack_InitP10stack_typem, symObjAddr: 0x0, symBinAddr: 0x1000005B8, symSize: 0xC4 }
+  - { offset: 0x77F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x360, symBinAddr: 0x100000918, symSize: 0xBC }
+  - { offset: 0x7AD, size: 0x8, addend: 0x0, symName: __Z13Stack_DestroyP10stack_type, symObjAddr: 0x2F0, symBinAddr: 0x1000008A8, symSize: 0x70 }
+  - { offset: 0x7FF, size: 0x8, addend: 0x0, symName: __Z9Stack_PopP10stack_type, symObjAddr: 0x230, symBinAddr: 0x1000007E8, symSize: 0xC0 }
+  - { offset: 0x847, size: 0x8, addend: 0x0, symName: __Z10Stack_PushP10stack_typei, symObjAddr: 0xC4, symBinAddr: 0x10000067C, symSize: 0x16C }
+  - { offset: 0x8BF, size: 0x8, addend: 0x0, symName: __Z10Stack_InitP10stack_typem, symObjAddr: 0x0, symBinAddr: 0x1000005B8, symSize: 0xC4 }
+...
